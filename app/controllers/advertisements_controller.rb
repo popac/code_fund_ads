@@ -26,6 +26,7 @@ class AdvertisementsController < ApplicationController
       format.js
       format.json { render "/advertisements/show", status: @creative ? :ok : :not_found, layout: false }
       format.html { render "/advertisements/show", status: @creative ? :ok : :not_found, layout: false }
+      format.svg { head :no_content }
     end
   end
 
