@@ -1,5 +1,5 @@
-class CardComponent < ApplicationComponent
-  DEFAULT_CLASSES = "card"
+class Card::SubtitleComponent < ApplicationComponent
+  DEFAULT_CLASSES = "card-subtitle text-muted"
 
   def initialize(classes: nil)
     @class_names = classes

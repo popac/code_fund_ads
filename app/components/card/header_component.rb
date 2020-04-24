@@ -1,5 +1,5 @@
-class CardComponent < ApplicationComponent
-  DEFAULT_CLASSES = "card"
+class Card::HeaderComponent < ApplicationComponent
+  DEFAULT_CLASSES = "card-header"
 
   def initialize(classes: nil)
     @class_names = classes
