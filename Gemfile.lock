@@ -677,7 +677,6 @@ DEPENDENCIES
   screenshot_machine (~> 0.0.4)!
   selenium-webdriver
   sendgrid-actionmailer (~> 3.0)
-  sendgrid-ruby (~> 6.2)
   sidekiq (~> 6.0.0)
   sidekiq-failures (~> 1.0.0)
   simple_form (~> 5.0)
